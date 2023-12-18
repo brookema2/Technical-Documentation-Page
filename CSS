@@ -1,0 +1,31 @@
+body {
+font-family: Verdana;
+}
+
+header {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+#navbar {
+  width: 15 vw;
+  height: 30%;
+
+}
+
+@media screen and (max-width: 200px) {
+  #navbar {
+    width: 5.5vw;
+  }
+  #navbar-title {
+    font: 16px;
+  }
+  .nav-link {
+    font: 14px;
+  }
+}
+
+.nav-link:hover {
+  color: #c6e5e3;
+}
